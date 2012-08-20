@@ -23,7 +23,7 @@
 	var socket;
 
 	function init() {
-		socket = new WebSocket("ws://${serverUrl}/tomcatWebsocket");
+		socket = new WebSocket("ws://${serverUrl}/websocket/tomcatWebsocket");
 		socket.onmessage = function(event) {
 			var ta = document.getElementById('responseText');
 			ta.value = ta.value + '\n' + event.data

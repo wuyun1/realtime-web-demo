@@ -10,15 +10,8 @@ String.prototype.template = function() {
 	return this.replace(/\{(\d+)\}/g, function(m, i) {
 		return args[i];
 	});
-}
-var html = '<div class="logDiv">' + '<div class="contentDiv">{0}</div>'
-		+ '<div class="tipDiv">last date : {1}</div>'
-		+ '<div class="clear">&nbsp;</div>' + '</div>';
+};
 
-function showContent(json) {
-	$("#showDiv").prepend(html.template(json.content, json.date));
-}
-var server = 'blogpush';
 var comet = {
 	connection : false,
 	iframediv : false,

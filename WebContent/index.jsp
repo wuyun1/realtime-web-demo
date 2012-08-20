@@ -9,11 +9,20 @@
 <body>
 <h2>Realtime Web Demos</h2>
 <div>
+	<div>Polling Demo</div>
 	<ol>
-		<li><a href="polling.jsp" target="_blank">Polling Example</a></li>
-		<li><a href="longpolling-xhr.jsp" target="_blank">Long Polling With XHR Example</a></li>
-		<li><a href="longpolling-xhr-async.jsp" target="_blank">Long Polling With XHR Async Support Example</a></li>
-		<li><a href="" target="_blank"></a></li>
+		<li><a href="poll/polling.jsp" target="_blank">Polling Example</a></li>
+		<li><a href="poll/longpolling-xhr.jsp" target="_blank">Long Polling With XHR Example</a></li>
+		<li><a href="poll/longpolling-xhr-async.jsp" target="_blank">Long Polling With XHR Async Support Example</a></li>
+		<!--
+			<li><a href="" target="_blank"></a></li>
+		-->
+	</ol>
+	
+	<div>Streaming Demo</div>
+	<ol>
+		<li><a href="stream/hidden-iframe.jsp" target="_blank">Hidden iFrame Example</a></li>
+		<li><a href="websocket/flash-websocket.jsp" target="_blank">Flash Websocket Example</a></li>
 	</ol>
 	
 	<div>Websocket Demo</div>

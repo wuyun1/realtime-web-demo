@@ -11,7 +11,7 @@
 	<div id="trace"></div>
 	<script type="text/javascript">
 		if (window.EventSource) {
-			var source = new EventSource('../eventsourceDemo');
+			var source = new EventSource('eventsourceDemo');
 			source.addEventListener('message', function(e) {
 				trace(e.data);
 			}, false);

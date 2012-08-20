@@ -15,7 +15,7 @@ import org.apache.catalina.websocket.WsOutbound;
 /**
  * Servlet implementation class TomcatWebsocket
  */
-@WebServlet("/tomcatWebsocket")
+@WebServlet("/websocket/tomcatWebsocket")
 public class TomcatWebsocketDemo extends WebSocketServlet {
 	private static final long serialVersionUID = 1L;
 

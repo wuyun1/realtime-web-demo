@@ -1,4 +1,4 @@
-package com.realtime;
+package com.realtime.poll;
 
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -24,7 +24,7 @@ import org.apache.log4j.Logger;
  * @time 2012-8-17
  * @version 1.0
  */
-@WebServlet(urlPatterns = "/getNextTimeAsync", asyncSupported = true)
+@WebServlet(urlPatterns = "/poll/getNextTimeAsync", asyncSupported = true)
 public class GetNextTimeServletAsync extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 	private static final Logger log = Logger

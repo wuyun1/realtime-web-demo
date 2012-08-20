@@ -16,7 +16,7 @@ import org.apache.commons.lang.time.DateFormatUtils;
 /**
  * EventsourceDemo Demo
  */
-@WebServlet("/eventsourceDemo")
+@WebServlet("/eventsource/eventsourceDemo")
 public class EventsourceDemo extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 	private final String NEW_MESSAGE = "id: %s\ndata: server time: %s";

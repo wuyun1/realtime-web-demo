@@ -16,7 +16,7 @@ import javax.servlet.http.HttpServletResponse;
  * @version 1.0
  */
 @WebServlet("/addBlog")
-public class AddBlogServlet extends HttpServlet {{
+public class AddBlogServlet extends HttpServlet {
 
 	protected void doPost(HttpServletRequest request,
 			   HttpServletResponse response) throws ServletException, IOException {

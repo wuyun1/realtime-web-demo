@@ -12,6 +12,7 @@
 	<ol>
 		<li><a href="polling.jsp" target="_blank">Polling Example</a></li>
 		<li><a href="longpolling-xhr.jsp" target="_blank">Long Polling With XHR Example</a></li>
+		<li><a href="longpolling-xhr-async.jsp" target="_blank">Long Polling With XHR Async Support Example</a></li>
 		<li><a href="" target="_blank"></a></li>
 	</ol>
 	
@@ -19,6 +20,12 @@
 	<ol>
 		<li><a href="websocket/tomcat-7.0.29.jsp" target="_blank">Tomcat-7.0.29 Websocket Example</a></li>
 		<li><a href="websocket/flash-websocket.jsp" target="_blank">Flash Websocket Example</a></li>
+	</ol>
+	
+	<div>Server-Sent Events(EventSource) Example</div>
+	<ol>
+		<li><a href="eventsource/eventsource.jsp" target="_blank">EventSource Example</a></li>
+		<!--li><a href="eventsource/eventsource-ie.jsp" target="_blank">EventSource With Support IE Example</a></li -->
 	</ol>
 </div>
 </body>

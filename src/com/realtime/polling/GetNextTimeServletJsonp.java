@@ -1,4 +1,4 @@
-package com.realtime.poll;
+package com.realtime.polling;
 
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -17,7 +17,7 @@ import org.apache.commons.lang.time.DateFormatUtils;
  * @time 2012-8-17
  * @version 1.0
  */
-@WebServlet("/poll/getNextTimeJsonp")
+@WebServlet("/polling/getNextTimeJsonp")
 public class GetNextTimeServletJsonp extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 

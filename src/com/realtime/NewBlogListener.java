@@ -11,7 +11,6 @@ import java.util.concurrent.LinkedBlockingDeque;
 import javax.servlet.AsyncContext;
 import javax.servlet.ServletContextEvent;
 import javax.servlet.ServletContextListener;
-import javax.servlet.annotation.WebListener;
 
 import org.apache.commons.lang.time.DateFormatUtils;
 import org.apache.commons.logging.Log;

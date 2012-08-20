@@ -12,6 +12,8 @@ import javax.servlet.http.HttpServletResponse;
 import org.apache.commons.lang.time.DateFormatUtils;
 
 /**
+ * 线程阻塞版本
+ * 
  * @author nieyong
  * @time 2012-8-17
  * @version 1.0
@@ -22,6 +24,7 @@ public class GetNextTimeServlet extends HttpServlet {
 
 	protected void doGet(HttpServletRequest request,
 			HttpServletResponse response) throws ServletException, IOException {
+		// 线程阻塞
 		try {
 			Thread.sleep(1000L);
 		} catch (InterruptedException e) {

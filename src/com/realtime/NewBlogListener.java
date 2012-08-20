@@ -30,7 +30,7 @@ import org.json.simple.JSONObject;
  * @date 2011-1-13
  * @version 1.0
  */
-@WebListener
+//@WebListener
 public class NewBlogListener implements ServletContextListener {
 	private static final Log log = LogFactory.getLog(NewBlogListener.class);
 	public static final BlockingQueue<MicBlog> BLOG_QUEUE = new LinkedBlockingDeque<MicBlog>();

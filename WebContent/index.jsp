@@ -14,6 +14,12 @@
 		<li><a href="longpolling-xhr.jsp" target="_blank">Long Polling With XHR Example</a></li>
 		<li><a href="" target="_blank"></a></li>
 	</ol>
+	
+	<div>Websocket Demo</div>
+	<ol>
+		<li><a href="websocket/tomcat-7.0.29.jsp" target="_blank">Tomcat-7.0.29 Websocket Example</a></li>
+		<li><a href="websocket/flash-websocket.jsp" target="_blank">Flash Websocket Example</a></li>
+	</ol>
 </div>
 </body>
 </html>

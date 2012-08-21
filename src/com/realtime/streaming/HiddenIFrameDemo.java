@@ -78,7 +78,7 @@ public class HiddenIFrameDemo extends HttpServlet {
 			HttpServletResponse response) throws ServletException, IOException {
 		response.setHeader("Cache-Control", "private");
 		response.setHeader("Pragma", "no-cache");
-		response.setHeader("Connection", "Keep-Alive");
+//		response.setHeader("Connection", "Keep-Alive");
 		response.setHeader("Proxy-Connection", "Keep-Alive");
 		response.setContentType("text/html;charset=UTF-8");
 		response.setCharacterEncoding("UTF-8");

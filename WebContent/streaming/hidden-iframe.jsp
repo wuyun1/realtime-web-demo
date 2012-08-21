@@ -8,15 +8,15 @@
 <meta name="author" content="yongboy@gmail.com" />
 <script type="text/javascript" src="../js/jquery-1.7.2.min.js"></script>
 <script type="text/javascript">
-	var html = '<div class="logDiv"><div class="contentDiv">{0}</div>'
+	var html = '<div class="logDiv"><div class="contentDiv">Now Time : {0}</div>'
 			+ '<div class="clear">&nbsp;</div></div>';
 
 	function showContent(dateStr) {
-		$("#showDiv").prepend(html.template(dateStr));
+		$("#showDiv").html(html.template(dateStr));
 	}
 	var server = 'hiddenIFrameDemo';
 	$(function(){
-		$("#showDiv").append("loading ...");
+		$("#showDiv").html("loading ...");
 	});
 </script>
 <script type="text/javascript" src="../js/comet.js"></script>

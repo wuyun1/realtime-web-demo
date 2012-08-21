@@ -14,6 +14,8 @@
 		<li><a href="polling/polling.jsp" target="_blank">Polling Example</a></li>
 		<li><a href="polling/longpolling-xhr.jsp" target="_blank">Long Polling With XHR Example</a></li>
 		<li><a href="polling/longpolling-xhr-async.jsp" target="_blank">Long Polling With XHR Async Support Example</a></li>
+		<li><a href="polling/longpolling-scripttag.jsp" target="_blank">Script tag Long Polling</a></li>
+		<li><a href="polling/longpolling-scripttagwithcallback.jsp" target="_blank">Script tag Long Polling With Callback Support</a></li>
 		<!--
 			<li><a href="" target="_blank"></a></li>
 		-->

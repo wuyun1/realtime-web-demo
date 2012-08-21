@@ -4,12 +4,15 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Realtime Web Demos</title>
+<title>Realtime Web Examples</title>
+<style>
+div{}
+</style>
 </head>
 <body>
-<h2>Realtime Web Demos</h2>
+<h1>Realtime Web Examples</h1>
 <div>
-	<div>Polling Demo</div>
+	<h3>Polling Examples</h3>
 	<ol>
 		<li><a href="polling/polling.jsp" target="_blank">Polling Example</a></li>
 		<li><a href="polling/longpolling-xhr.jsp" target="_blank">Long Polling With XHR Example</a></li>
@@ -22,28 +25,35 @@
 		-->
 	</ol>
 	
-	<div>Streaming Demo</div>
+	<h3>Streaming Examples</h3>
 	<ol>
 		<li><a href="streaming/hidden-iframe.jsp" target="_blank">Hidden iFrame Example</a></li>
 		<li><a href="streaming/xhr.jsp" target="_blank">XMLHttpRequest Streaming Example</a></li>
 	</ol>
 	
-	<div>Websocket Demo</div>
+	<h3>Websocket Examples</h3>
 	<ol>
 		<li><a href="websocket/tomcat-7.0.29.jsp" target="_blank">Tomcat-7.0.29 Websocket Example</a></li>
 		<li><a href="websocket/flash-websocket.jsp" target="_blank">Flash Websocket Example</a></li>
 	</ol>
 	
-	<div>Server-Sent Events(EventSource) Example</div>
+	<h3>Server-Sent Events(EventSource) Example</h3>
 	<ol>
 		<li><a href="eventsource/eventsource.jsp" target="_blank">EventSource Example</a></li>
 		<!--li><a href="eventsource/eventsource-ie.jsp" target="_blank">EventSource With Support IE Example</a></li -->
 	</ol>
 	
-	<div>Async Filter Example</div>
+	<h3>Async Filter Example</h3>
 	<ol>
 		<li><a href="demoAsyncLink" target="_blank">Async Servlet with Async Filter</a></li>
 		<li><a href="demoAsyncLink2" target="_blank">Async Servlet Without Async Filter</a></li>
+	</ol>
+	
+	
+	<h3>Socket.io Example(with socketio-netty server)</h3>
+	<ol>
+		<li><a href="socket.io/chat.html" target="_blank">Chat Example</a></li>
+		<li><a href="socket.io/whiteboard.html" target="_blank">Whiteboard Example</a></li>
 	</ol>
 </div>
 </body>

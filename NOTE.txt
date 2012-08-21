@@ -1,0 +1,15 @@
+前置条件(precondition)：
+
+1. 统一编码为UTF-8(Unified coding for UTF-8) 
+
+2. 需要安装Tomcat 7.0.29(Need install Tomcat 7.0.29)
+http://www.fayea.com/apache-mirror/tomcat/tomcat-7/v7.0.29/bin/apache-tomcat-7.0.29.tar.gz
+
+3. 检出到Eclipse, 右键Run As -- > Run on Server
+        请务必选择 tomcat 7
+        
+4. 程序会自动启动843端口用于监听Flash Policy File请求(Need start server with port 843 in servlet just for listen for flash's Policy File request)
+
+5. 程序会自动启动socket.io服务器，其占用9000端口(The servlet will start socket.io server with 9000 port automatically)
+
+6. 访问首页，即可看到所有内置演示文档等(Access the homepage now, enjoy it~)

@@ -60,6 +60,11 @@ div{}
 	<ol>
 		<li>See java source : src/com/realtime/pubsubhubbub/SubscriberCallback.java</li>
 	</ol>
+	
+	<h3>Java Observer Pattern Example</h3>
+	<ol>
+		<li>See java source : src/com/realtime/observer/Publisher.java</li>
+	</ol>
 </div>
 </body>
 </html>

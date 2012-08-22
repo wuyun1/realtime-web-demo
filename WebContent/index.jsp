@@ -55,6 +55,11 @@ div{}
 		<li><a href="socket.io/chat.html" target="_blank">Chat Example</a></li>
 		<li><a href="socket.io/whiteboard.html" target="_blank">Whiteboard Example</a></li>
 	</ol>
+	
+	<h3>Google PubSubHubbub Subscriber Callback Example</h3>
+	<ol>
+		<li>See java source : src/com/realtime/pubsubhubbub/SubscriberCallback.java</li>
+	</ol>
 </div>
 </body>
 </html>
